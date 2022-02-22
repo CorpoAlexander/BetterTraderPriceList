@@ -1,0 +1,36 @@
+.gs-button{cursor:pointer}
+
+.gs-pagination{display:none}
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font: 16px Arial, sans-serif;
+}
+
+#filePicker {
+}
+
+#searchField {
+    width: 300px;
+    margin-top: 25px;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    text-align: left;
+    padding: 25px 25px 5px 0;
+    font-size: large;
+}
+
+tr td{
+    border-bottom: 1px solid mediumspringgreen;
+}
